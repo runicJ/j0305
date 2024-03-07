@@ -1,14 +1,15 @@
 package t6_exam;
 
-public class Test1_급여계산VO {
+public class Test1_VO {
 	int no;
 	String name;
-	String code;
+	char code;
 	int overTime;
 	int netpay;
 	int sudang;
 	int goneje;
 	int bonbong;
+	String jikkub;
 	
 	public int getNo() {
 		return no;
@@ -22,10 +23,10 @@ public class Test1_급여계산VO {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getCode() {
+	public char getCode() {
 		return code;
 	}
-	public void setCode(String code) {
+	public void setCode(char code) {
 		this.code = code;
 	}
 	public int getOverTime() {
@@ -58,5 +59,10 @@ public class Test1_급여계산VO {
 	public void setBonbong(int bonbong) {
 		this.bonbong = bonbong;
 	}
-
+	public String getJikkub() {
+		return jikkub;
+	}
+	public void setJikkub(String jikkub) {
+		this.jikkub = jikkub;
+	}
 }
