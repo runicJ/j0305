@@ -8,7 +8,7 @@ public class Singleton {
 	private Singleton() {}
 	
 	// 3. 외부에서 호출하여 사용할 수 있는 정적 메소드(getInstance())를 만들어준다.
-	static Singleton getInstance() {  //객체 생성하지 않고 사용
+	static Singleton getInstance() {  // 객체 생성하지 않고 사용
 		return singleton;
 	}
 }

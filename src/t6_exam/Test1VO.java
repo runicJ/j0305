@@ -1,20 +1,20 @@
 package t6_exam;
 
-public class Test1_VO {
-	int no;
-	String name;
-	char code;
-	int overTime;
-	int netpay;
-	int sudang;
-	int goneje;
-	int bonbong;
-	String jikkub;
+public class Test1VO {
+	private String no;
+	private String name;
+	private char code;
+	private int overTime;
+	private int bonbong;
+	private int sudang;
+	private int gongje;
+	private int netpay;
+	private String jikkub;
 	
-	public int getNo() {
+	public String getNo() {
 		return no;
 	}
-	public void setNo(int no) {
+	public void setNo(String no) {
 		this.no = no;
 	}
 	public String getName() {
@@ -35,11 +35,11 @@ public class Test1_VO {
 	public void setOverTime(int overTime) {
 		this.overTime = overTime;
 	}
-	public int getNetpay() {
-		return netpay;
+	public int getBonbong() {
+		return bonbong;
 	}
-	public void setNetpay(int netpay) {
-		this.netpay = netpay;
+	public void setBonbong(int bonbong) {
+		this.bonbong = bonbong;
 	}
 	public int getSudang() {
 		return sudang;
@@ -47,17 +47,17 @@ public class Test1_VO {
 	public void setSudang(int sudang) {
 		this.sudang = sudang;
 	}
-	public int getGoneje() {
-		return goneje;
+	public int getGongje() {
+		return gongje;
 	}
-	public void setGoneje(int goneje) {
-		this.goneje = goneje;
+	public void setGongje(int gongje) {
+		this.gongje = gongje;
 	}
-	public int getBonbong() {
-		return bonbong;
+	public int getNetpay() {
+		return netpay;
 	}
-	public void setBonbong(int bonbong) {
-		this.bonbong = bonbong;
+	public void setNetpay(int netpay) {
+		this.netpay = netpay;
 	}
 	public String getJikkub() {
 		return jikkub;
